@@ -98,3 +98,6 @@ public class LinkedListDefinitionClass {
         }
         return response;
     }
+
+    public void swap(int firstNode, int secondNode, int previous) {
+

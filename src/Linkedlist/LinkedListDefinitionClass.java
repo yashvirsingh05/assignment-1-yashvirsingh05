@@ -100,4 +100,9 @@ public class LinkedListDefinitionClass {
     }
 
     public void swap(int firstNode, int secondNode, int previous) {
-
+        Node<E> first = getNode(firstNode);
+        Node<E> second = getNode(secondNode);
+        Node<E> change = second;
+        second = first;
+        first = change;
+    }

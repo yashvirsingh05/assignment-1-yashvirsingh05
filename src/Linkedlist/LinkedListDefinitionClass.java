@@ -122,3 +122,6 @@ public class LinkedListDefinitionClass {
         Node<E> node = getNode(i);
         return node.getData();
     }
+
+    private static class Node<E> {
+        private E data;

@@ -106,3 +106,7 @@ public class LinkedListDefinitionClass {
         second = first;
         first = change;
     }
+
+    @Override
+    public void print() {
+        System.out.print("[");

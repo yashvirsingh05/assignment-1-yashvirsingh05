@@ -23,3 +23,6 @@ public class ViewContact {
                     System.out.print(person.getContactNo().dataAtIndex(i) + (j < person.getContactNo().getSize() - 1 ? "," : ""));
                 }
             }
+        } else{
+            System.out.print("Contact Number :" + person.getContactNo().dataAtIndex(0));
+        }

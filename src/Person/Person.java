@@ -28,5 +28,9 @@ public class Person {
         return frsitName;
     }
 
+    public void setFrsitName(String frsitName) {
+        this.frsitName = frsitName;
+    }
+
 
 }

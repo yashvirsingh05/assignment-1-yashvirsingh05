@@ -84,3 +84,7 @@ public class LinkedListDefinitionClass {
         return remove(size - 1);
     }
 
+    @Override
+    public int search(E item) {
+        int response = -1;
+

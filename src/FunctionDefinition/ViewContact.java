@@ -26,3 +26,8 @@ public class ViewContact {
         } else{
             System.out.print("Contact Number :" + person.getContactNo().dataAtIndex(0));
         }
+        System.out.println("\nEmail Address :" + person.getEmailAddress());
+        System.out.println("----------*--------------*---------------*");
+    }
+
+}

@@ -24,5 +24,9 @@ public class Person {
         this.contactNo = contactNo;
     }
 
+    public String getFrsitName() {
+        return frsitName;
+    }
+
 
 }

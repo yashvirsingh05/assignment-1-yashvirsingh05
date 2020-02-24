@@ -20,5 +20,9 @@ public class Person {
         return contactNo;
     }
 
+    public void setContactNo(LinkedListDefinitionClass<Long> contactNo) {
+        this.contactNo = contactNo;
+    }
+
 
 }

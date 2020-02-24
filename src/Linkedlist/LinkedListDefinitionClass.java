@@ -71,6 +71,7 @@ public class LinkedListDefinitionClass {
         if (index < 0 || index > size) {
             throw new IndexOutOfBoundsException(Integer.toString(index));
         } else if (index == 0) {
+            response = removeFirst();
 
         }
 

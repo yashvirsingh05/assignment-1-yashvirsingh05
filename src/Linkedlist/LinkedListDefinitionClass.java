@@ -79,3 +79,8 @@ public class LinkedListDefinitionClass {
         return response;
     }
 
+    @Override
+    public E remove() {
+        return remove(size - 1);
+    }
+

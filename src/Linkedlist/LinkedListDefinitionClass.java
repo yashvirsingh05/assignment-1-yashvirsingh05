@@ -67,6 +67,7 @@ public class LinkedListDefinitionClass {
     }
 
     public E remove(int index) {
+        E response = null;
 
     }
 

@@ -1,5 +1,6 @@
 package execution;
 
+import FunctionDefinition.AddContact;
 import Linkedlist.LinkedListDefinitionClass;
 import Person.Person;
 
@@ -19,5 +20,11 @@ public class Main {
                     "Press 4 to delete a contact\n" +
                     "Press 5 to exit program ");
             int ch = tell.nextInt();
+            switch (ch) {
+                case 1:
+                    AddContact add = new AddContact();
+                    LinkedListDefinitionClass list = new LinkedListDefinitionClass();
+                    list.add(add.addContact());
+                    break;
+            }
         }
-    }

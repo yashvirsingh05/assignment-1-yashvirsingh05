@@ -6,5 +6,5 @@ public class Person {
     private String frsitName;
     private String lastName;
     private LinkedListDefinitionClass<Long> contactNo;
-
+    private String emailAddress;
 }

@@ -117,3 +117,8 @@ public class LinkedListDefinitionClass {
         System.out.println("]");
 
     }
+
+    public E dataAtIndex(int i) {
+        Node<E> node = getNode(i);
+        return node.getData();
+    }

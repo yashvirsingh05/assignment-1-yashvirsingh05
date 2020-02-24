@@ -1,6 +1,7 @@
 package FunctionDefinition;
 
 import Linkedlist.LinkedListDefinitionClass;
+import Person.Person;
 
 public class ViewContact {
     public boolean viewList(LinkedListDefinitionClass person) {
@@ -10,4 +11,5 @@ public class ViewContact {
         return true;
     }
 
-}
+    public void printContact(LinkedListDefinitionClass<Person> totalContact, int size) {
+    }

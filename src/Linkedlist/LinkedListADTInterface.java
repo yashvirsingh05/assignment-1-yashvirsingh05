@@ -5,4 +5,6 @@ public interface LinkedListADTInterface {
 
     E remove();
 
+    int search(E item);
+
 }

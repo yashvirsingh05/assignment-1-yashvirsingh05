@@ -11,6 +11,7 @@ public class Main {
         boolean turnoff = false;
         Scanner tell = new Scanner(System.in);
         int a = 0;
+        System.out.println("Welcome to yashvir Contact list \uD83D\uDE01:");
 
     }
 }

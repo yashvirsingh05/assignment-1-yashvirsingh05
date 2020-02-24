@@ -54,5 +54,9 @@ public class LinkedListDefinitionClass {
 
         return response;
     }
+
+    private E removeAfter(Node<E> node) {
+        E response = null;
+        Node<E> temp = node.getNext();
     }
 

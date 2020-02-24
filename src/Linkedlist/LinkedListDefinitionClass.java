@@ -24,5 +24,17 @@ public class LinkedListDefinitionClass {
         node.next = new Node<>(item, node.next);
         size++;
     }
+
+    public void add(int index, E item) {
+        if (index < 0 || index > size) {
+            throw new IndexOutOfBoundsException(Integer.toString(index));
+        } else if (index == 0) {
+            addFirst(item);
+        } else {
+            Node<E> temp = getNode(index - 1);
+            addAfter(temp, item);
+        }
+    }
+
 }
 

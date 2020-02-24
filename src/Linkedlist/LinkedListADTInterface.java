@@ -7,4 +7,6 @@ public interface LinkedListADTInterface {
 
     int search(E item);
 
+    void print();
+
 }

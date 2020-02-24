@@ -1,6 +1,6 @@
 package Linkedlist;
 
-public interface LinkedListADTInterface {
+public interface LinkedListADTInterface<E> {
     void add(E item);
 
     E remove();

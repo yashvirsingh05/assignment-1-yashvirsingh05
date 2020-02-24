@@ -6,4 +6,8 @@ public class LinkedListDefinitionClass {
     public int getSize() {
         return size;
     }
+
+    private Node<E> getNode(int index) {
+
+    }
 }

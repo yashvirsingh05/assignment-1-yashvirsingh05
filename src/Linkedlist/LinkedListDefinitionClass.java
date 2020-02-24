@@ -19,5 +19,10 @@ public class LinkedListDefinitionClass {
         head = new Node<>(item, head);
         size++;
     }
+
+    private void addAfter(Node<E> node, E item) {
+        node.next = new Node<>(item, node.next);
+        size++;
+    }
 }
 

@@ -12,4 +12,9 @@ public class ViewContact {
     }
 
     public void printContact(LinkedListDefinitionClass<Person> totalContact, int size) {
-    }
+        for (int i = 0; i < size; i++) {
+            Person person = totalContact.dataAtIndex(i);
+            System.out.println("------*------------*---------**--------\n" +
+                    "First Name :" + person.getFrsitName() + "\n" +
+                    "Last Name :" + person.getLastName());
+        }

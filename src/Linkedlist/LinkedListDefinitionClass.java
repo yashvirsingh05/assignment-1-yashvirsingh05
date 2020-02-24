@@ -36,5 +36,9 @@ public class LinkedListDefinitionClass {
         }
     }
 
+    @Override
+    public void add(E item) {
+        add(size, item);
+    }
 }
 

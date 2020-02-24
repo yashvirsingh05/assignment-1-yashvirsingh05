@@ -16,5 +16,9 @@ public class Person {
         this.emailAddress = emailAddress;
     }
 
+    public LinkedListDefinitionClass getContactNo() {
+        return contactNo;
+    }
+
 
 }

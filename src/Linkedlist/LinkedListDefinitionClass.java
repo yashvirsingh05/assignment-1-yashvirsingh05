@@ -87,4 +87,14 @@ public class LinkedListDefinitionClass {
     @Override
     public int search(E item) {
         int response = -1;
+        for (int i = 0; i < size; i++) {
 
+            E data = this.getNode(i).getData();
+
+            if (item.equals(data)) {
+                response = i;
+                break;
+            }
+        }
+        return response;
+    }

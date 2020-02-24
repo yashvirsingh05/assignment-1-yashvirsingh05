@@ -44,5 +44,8 @@ public class LinkedListDefinitionClass {
     private E removeFirst() {
         E response = null;
         Node<E> temp = head;
+        if (head != null) {
+            head = head.getNext();
+        }
     }
 

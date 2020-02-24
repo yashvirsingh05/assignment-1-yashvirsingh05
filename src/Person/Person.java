@@ -32,5 +32,9 @@ public class Person {
         this.frsitName = frsitName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
 
 }

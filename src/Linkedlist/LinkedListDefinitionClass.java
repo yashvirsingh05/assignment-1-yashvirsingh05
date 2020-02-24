@@ -135,3 +135,11 @@ public class LinkedListDefinitionClass {
             this.data = data;
             this.next = next;
         }
+
+        private Node(E data, Node<E> next) {
+            this.data = data;
+            this.next = next;
+        }
+    }
+}
+

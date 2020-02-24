@@ -68,6 +68,8 @@ public class LinkedListDefinitionClass {
 
     public E remove(int index) {
         E response = null;
-
+        if (index < 0 || index > size) {
+            throw new IndexOutOfBoundsException(Integer.toString(index));
+        }
     }
 

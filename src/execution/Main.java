@@ -26,5 +26,26 @@ public class Main {
                     LinkedListDefinitionClass list = new LinkedListDefinitionClass();
                     list.add(add.addContact());
                     break;
+                case 2:
+                    View view = new View();
+                    view.viewList(listContact);
+                    break;
+
+                case 3:
+                    SeachContact search = new SeachContact();
+                    search.seach(listContact);
+                    break;
+                case 4:
+                    deleteContact delete = new deleteContact();
+                    delete.removeContactFormLIst(listContact);
+                    break;
+                case 5:
+                    turnoff = true;
+                    break;
+                default:
+                    System.out.println("invalid choice please re-enter");
+                    break;
             }
         }
+    }
+}

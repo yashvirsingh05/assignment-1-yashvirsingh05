@@ -72,6 +72,10 @@ public class LinkedListDefinitionClass {
             throw new IndexOutOfBoundsException(Integer.toString(index));
         } else if (index == 0) {
             response = removeFirst();
-
+        } else {
+            Node<E> previousNode = getNode(index - 1);
+            response = removeAfter(previousNode);
         }
+        return response;
+    }
 

@@ -47,5 +47,12 @@ public class LinkedListDefinitionClass {
         if (head != null) {
             head = head.getNext();
         }
+        if (temp != null) {
+            size--;
+            response = temp.getData();
+        }
+
+        return response;
+    }
     }
 

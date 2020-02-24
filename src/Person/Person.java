@@ -7,4 +7,9 @@ public class Person {
     private String lastName;
     private LinkedListDefinitionClass<Long> contactNo;
     private String emailAddress;
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
 }

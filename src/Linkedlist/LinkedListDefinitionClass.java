@@ -40,5 +40,9 @@ public class LinkedListDefinitionClass {
     public void add(E item) {
         add(size, item);
     }
-}
+
+    private E removeFirst() {
+        E response = null;
+        Node<E> temp = head;
+    }
 

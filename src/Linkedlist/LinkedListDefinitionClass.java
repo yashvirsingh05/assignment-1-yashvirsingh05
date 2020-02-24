@@ -14,5 +14,10 @@ public class LinkedListDefinitionClass {
         }
         return response;
     }
+
+    private void addFirst(E item) {
+        head = new Node<>(item, head);
+        size++;
     }
+}
 

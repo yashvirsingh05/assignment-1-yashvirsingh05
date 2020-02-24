@@ -11,5 +11,13 @@ public class SearchContact {
         Scanner tell = new Scanner(System.in);
         LinkedListDefinitionClass<Person> matchedContact = new LinkedListDefinitionClass();
         System.out.println("You could search for a contact from their first names:");
-        String element = tell.nextLine()
+        String element = tell.nextLine();
+        int match = 0;
+        for (int i = 0; i < person.getSize(); i++) {
+            Person person1 = (Person) person.dataAtIndex(i);
+            if (element.equals(person1.getFrsitName())) {
+                match++;
+                matchedContact.add(person1);
+            }
+        }
     }

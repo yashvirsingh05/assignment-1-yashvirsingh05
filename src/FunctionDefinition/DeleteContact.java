@@ -21,4 +21,5 @@ public class deleteContact {
         System.out.println(person2.getFrsitName() + "'s contact deleted from list!");
         person.remove(choice - 1);
     }
+}
 
